@@ -1,2 +1,3 @@
 # Coursera_Capstone
-Advanced capstone project
+Accidents occur often and the severity of the accidents typically requires a different response from authorities and other road users. Knowing the severity of a car accident can be incredibly important in helping road users make an assessment of how to navigate the road system to avoid exacerbating the situation.  This can help road user re-route to alternate routes, and avoid congesting road ways where emergency services might need to use to provide critical aid to those hurt in an accident.
+The goal of this project is to develop a supervised machine learning model that would help a road user to predict car accident severity with reasonably high accuracy.
