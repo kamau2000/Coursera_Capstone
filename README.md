@@ -7,9 +7,9 @@ The data used in the project will the be the "Data-collisions.csv" file provided
  
 Several key columns such weather, road condition and light conditions are missing data that will need to be imputed or dropped as necessary.
  
- There are several columns that are meaningingless and will need to be dropped from the dataset such as the object column which is merely a sequence numbering of the rows. This will be dropped during data preparation for modeling. Other columns such as reportno.
- 
+ There are several columns that are meaningingless and will need to be dropped from the dataset such as the object column which is merely a sequence numbering of the rows. This will be dropped during data preparation for modeling. Other columns such as reportno that do not add value to the modeling will also be evaluated and possibly dropped from the modeling during data preparation stage.
  
 Severitycode column is duplicated.
  
  Data is imbalanced with more data showing cases where severity is lower i.e property damage compared with data showing a higher severity of injury. modeling will need to account for this appropriate i.e potentially using downsampling techniques.
+
