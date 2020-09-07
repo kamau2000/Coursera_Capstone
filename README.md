@@ -6,13 +6,8 @@ The goal of this project is to develop a supervised machine learning model that 
 
 
 # Data being used for this project
-The data used in the project will the be the "Data-collisions.csv" file provided by the capstone project. The file has  194,673 rows and 38 columns. The target column is the Severitycode which has two states. 1 for slight accident with property damage and 2 for a severe accident with resulting injury.
- 
-Several key columns such weather, road condition and light conditions are missing data that will need to be imputed or dropped as necessary.
- 
- There are several columns that are meaningingless and will need to be dropped from the dataset such as the object column which is merely a sequence numbering of the rows. This will be dropped during data preparation for modeling. Other columns such as reportno that do not add value to the modeling will also be evaluated and possibly dropped from the modeling during data preparation stage.
- 
-Severitycode column is duplicated.
- 
- Data is imbalanced with more data showing cases where severity is lower i.e property damage compared with data showing a higher severity of injury. modeling will need to account for this appropriate i.e potentially using downsampling techniques.
+The data used in the project will the be the "Data-collisions.csv" file provided by the capstone project. The file has  194,673 rows and 38 columns. The target column is the Severitycode which has two states. 1 for slight accident with property damage and 2 for a severe accident with resulting injury.  
+Several key columns such weather, road condition and light conditions are missing data that will need to be imputed or dropped as necessary.    There are several columns that are meaningingless and will need to be dropped from the dataset such as the object column which is merely a sequence numbering of the rows. This will be dropped during data preparation for modeling. Other columns such as reportno that do not add value to the modeling will also be evaluated and possibly dropped from the modeling during data preparation stage.  
+Severitycode column is duplicated.    Data is imbalanced with more data showing cases where severity is lower i.e property damage compared with data showing a higher severity of injury. modeling will need to account for this appropriate i.e potentially using downsampling techniques.
+Our modeling will perform a univariate and bivariate analysis of the different inputs to ascertain if they have a meaningful influence in the prediction. For example, the location where the accident occurred, the weather and road conditions will be evaluated. Time of accident will also be important to evaluate to see if there is any correlation with severity of accident.
 
